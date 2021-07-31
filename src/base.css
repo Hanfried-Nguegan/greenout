@@ -1,0 +1,15 @@
+.content {
+  padding-top: 5px;
+  padding-bottom: 1px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80rem;
+  width: 100%;
+}
+.content__image > img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}

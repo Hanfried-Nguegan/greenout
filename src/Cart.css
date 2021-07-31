@@ -1,0 +1,13 @@
+.cart {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.cart__greetings {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cart__spanGreetings {
+  font-size: 20px;
+  font-weight: 500;
+}

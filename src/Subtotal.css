@@ -1,0 +1,39 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+}
+.subtotal__gift > input {
+  margin-right: 5px;
+}
+.subtotal__checkoutButton {
+  background-color: #17a823 !important;
+  border-radius: 2px;
+  width: 100%;
+  color: white;
+  text-transform: inherit !important ;
+  height: 40px;
+  border: 1px solid;
+  opacity: 1;
+  transition: 0.3s;
+  margin-top: 10px;
+  border-color: #47a834 #4a9c31 #51f307 !important;
+}
+.subtotal__checkoutButton:hover {
+  opacity: 0.6;
+}
+.subtotal__button {
+  color: white;
+  font-weight: 600;
+}

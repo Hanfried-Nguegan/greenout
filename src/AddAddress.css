@@ -1,0 +1,23 @@
+.addAddress {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  height: 80px;
+  width: 14%;
+  padding: 20px;
+  justify-content: center;
+  background-color: #6e6d7a;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.addAddress > .MuiSvgIcon-root {
+  margin-left: 80px;
+  justify-content: center;
+  color: lightgray !important;
+}
+.addAddress__title {
+  font-size: 12px;
+  margin-left: 60px;
+  margin-top: 10px;
+  color: lightgray;
+}

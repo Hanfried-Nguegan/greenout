@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: var(--header-color);
+  color: white;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__left {
+  display: flex;
+  flex: 0.1;
+  align-items: center;
+  margin-left: 45px;
+}
+.header__search {
+  flex: 0.6;
+  background-color: #316334;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color: gray;
+  border-radius: 6px;
+}
+.header__search > input {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  height: 30px;
+  min-width: 35vw;
+}
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.3;
+  margin-right: 10px;
+  align-items: center;
+}
+.header__right > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.header__avatar {
+  margin-left: 40px;
+  border: 2px solid white;
+}
+
+.header__greetings {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header__logout {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header > a {
+  text-decoration: none;
+  color: white;
+}
+.header__right > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__logout > h3 {
+  margin-right: 5px;
+  color: rgb(199, 13, 13);
+}
+.header__logout > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.header__cart,
+.header__logoutButton {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.header__cart:hover {
+  transform: scale(1.2);
+}
+.header__logoutButton:hover {
+  transform: scale(1.2);
+}
+.header__greenout {
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+}

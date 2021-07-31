@@ -1,0 +1,27 @@
+.categories {
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  min-width: 130px;
+  background-image: linear-gradient(
+    140deg,
+    #e1f7d3 0%,
+    #3ab659 50%,
+    #089927 75%
+  );
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top: 6px solid #66be66;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.categories__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.categories:hover {
+  transform: scale(1.2);
+  color: rgb(243, 240, 240);
+}

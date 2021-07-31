@@ -1,0 +1,59 @@
+.paymentDetails__title {
+  margin: 15px;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 1rem;
+}
+hr {
+  size: 6;
+  color: lightgray;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.3;
+}
+.paymentDetails {
+  display: flex;
+  flex-direction: column;
+}
+.payment__container {
+  display: flex;
+}
+.paymentDetails__left > p {
+  padding: 10px;
+  color: rgb(170, 165, 165);
+  font-size: 15px;
+}
+.paymentDetails__right > p {
+  padding: 10px;
+}
+.paymentDetails__dotted {
+  border-top: 2px dashed lightgray;
+  opacity: 0.3;
+}
+.paymentDetails__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.paymentDetails__rightTotal {
+  font-weight: 700;
+  font-size: 16px;
+}
+.paymentDetails__rightDelivery {
+  color: rgb(134, 241, 134);
+  font-weight: 600;
+}
+.paymentDetails__rightDiscount {
+  opacity: 0.8;
+  font-weight: 400;
+}
+.paymentDetails__totalAmount {
+  font-size: 20px;
+  font-weight: 600;
+}
+.paymentDetails__totalPrice {
+  font-size: 20px;
+  font-weight: 600;
+}
