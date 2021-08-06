@@ -58,21 +58,21 @@ function Home() {
         <Title title={"Categories"} />
         <div className="home__categories">
           <Link to="/rolling_papers">
-            <Categories title={"Rolling Papers"} image />
+            <Categories title={"Rolling Papers"} />
           </Link>
           <Link to="/bongs">
-            <Categories title={"Bongs"} image />
+            <Categories title={"Bongs"} />
           </Link>
           <Link to="/vaporizers">
-            <Categories title={"Vaporizers"} image />
+            <Categories title={"Vaporizers"} />
           </Link>
           <Link to="/pipes">
-            <Categories title={"Pipes"} image />
+            <Categories title={"Pipes"} />
           </Link>
           <Link to="/grinders">
-            <Categories title={"Grinders"} image />
+            <Categories title={"Grinders"} />
           </Link>
-          <Categories title={"Ashtrays"} image />
+          <Categories title={"Ashtrays"} />
         </div>
       </div>
       <div className="home__bestSellers">
